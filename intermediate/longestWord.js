@@ -1,4 +1,4 @@
-// Challenge: Write a function that takes a sentence as input and returns the longest word in the sentence.
+// Write a function that takes a sentence as input and returns the longest word in the sentence.
 
 function longestWord(sentence){
     const word = sentence.split(' ');
