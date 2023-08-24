@@ -8,4 +8,4 @@ function chunkArray(arr, size){
     return chunk;
 }
 
-console.log(chunkArray([1,2,3,4,4,5,7,7,7,8,7],2))
+console.log(chunkArray([1,2,3,4,4,5,7,7,8,7],2))
