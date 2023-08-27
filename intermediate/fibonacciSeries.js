@@ -9,3 +9,21 @@ function fibonacciSeries(n) {
 }
 
 console.log(fibonacciSeries(10)); 
+
+function Fibonacci(num) {
+    if(num < 2) 
+        return num;
+    
+    else 
+        return Fibonacci(num-1) + Fibonacci(num - 2);
+}
+
+var terms = prompt('Enter the number of terms: ');
+
+if(terms <=0) 
+    console.log('Enter a positive integer.');
+
+else {
+    for(let i = 0; i < terms; i++) 
+        console.log(Fibonacci(i));   
+}
