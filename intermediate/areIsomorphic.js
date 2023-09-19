@@ -1,4 +1,4 @@
-// Challenge: Write a function that takes two strings as input and returns true if they are isomorphic (i.e., the characters in one string can be mapped to the characters in the other string).
+// Challenge: Write a function that takes two strings as input and returns true if they are isomorphic (i.e., the characters in one string can be mapped to the characters in the other string)
 
 function areIsomorphic(str1, str2) {
     if (str1.length !== str2.length) return false;
@@ -11,6 +11,6 @@ function areIsomorphic(str1, str2) {
         map2.set(str2[i], str1[i]);
     }
     return true;
-}
+
 
 console.log(areIsomorphic("egg", "add")); 
